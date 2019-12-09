@@ -10,12 +10,12 @@ where it was stored in a script to be rendered programmatically.
 After obtaining data about every player in the league, I obtain information
 about the 20 teams in the league.
 
-The second phase of my project is finding out the coordinates of all
-the players' hometowns and all of the teams' home markets. To accomplish this,
-I used the Google Places API and ran searches for all of the cities.
+The second phase of my project is finding out the latitude and longitude of all
+the players' hometowns and all the teams' home stadiums. To accomplish this,
+I used the Google Places API.
 
 All information from my requests to the OverwachLeague.com and the Google Places API are
-cached, but also are built into a relational database.
+cached, but also are built into an SQL relational database.
 
 This database has three tables:
 Players [Id, Name, Tag, TeamId, CityId, Role, HomeCountry]
