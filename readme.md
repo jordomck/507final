@@ -30,3 +30,8 @@ I estimate that it will take about 60-120 seconds to refill the data repositorie
 When my program owlmap.py is executed, the user can choose between a variety
 of different ways to explore this data. Follow the on-screen prompts to try it out!
 
+
+IF THIS DOESN'T WORK IN THE VIRTUALENV, PLEASE TRY RUNNING IT OUTSIDE OF THE VIRTUALENV. IT DOESN'T REQUIRE ANY
+ADVANCED MODULES, SO IT SHOULD WORK IN YOUR NORMAL ENVIRONMENT.
+
+
